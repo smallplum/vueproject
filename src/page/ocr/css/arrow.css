@@ -1,0 +1,24 @@
+.close .ant-menu-submenu-arrow{
+    opacity: 0;
+    transition: all 1s;
+}
+.open .ant-menu-submenu-arrow{
+    opacity: 1;
+    transition: all 1s;  
+}
+.close label{
+    opacity: 0;
+    transition: all 1s;
+}
+.open label{
+    opacity: 1;
+    transition: all 1s; 
+}
+.close .ant-menu-sub{
+   display: none;
+    transition: all 1s;   
+}
+.open .ant-menu-sub{
+    display: block;
+     transition: all 1s;   
+ }

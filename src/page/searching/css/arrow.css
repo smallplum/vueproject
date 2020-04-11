@@ -1,0 +1,36 @@
+.close .ant-menu-submenu-arrow{
+    opacity: 0;
+    transition: all 1s;
+}
+.open .ant-menu-submenu-arrow{
+    opacity: 1;
+    transition: all 1s;  
+}
+.close label{
+    opacity: 0;
+    transition: all 1s;
+}
+.open label{
+    opacity: 1;
+    transition: all 1s; 
+}
+.close .ant-menu-sub{
+   display: none;
+    transition: all 1s;   
+}
+.open .ant-menu-sub{
+    display: block;
+     transition: all 1s;   
+ }
+
+ .ant-tooltip-placement-right,
+.ant-tooltip-placement-rightTop,
+.ant-tooltip-placement-rightBottom {
+  max-width: 350px;
+  padding-left: 8px;
+}
+
+.ant-tooltip-placement-top, .ant-tooltip-placement-topLeft, .ant-tooltip-placement-topRight{
+    max-width: 600px;
+    padding-left: 8px;
+}
