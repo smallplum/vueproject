@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "ant-design-vue": "^1.4.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "cluster": "^0.7.7",
     "element-ui": "^2.4.11",
     "js-base64": "^2.5.1",
